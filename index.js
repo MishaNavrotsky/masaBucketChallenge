@@ -4,7 +4,6 @@ function lerp(start, end, amt) {
 Number.prototype.clamp = function (min, max) {
     return Math.min(Math.max(this, min), max);
 };
-
 window.onload = function () {
     const housAmm = 20;
     const speed = 100;
