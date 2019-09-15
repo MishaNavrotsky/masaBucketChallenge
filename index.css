@@ -1,0 +1,28 @@
+body > div {
+    height: 30px;
+}
+
+.house {
+    display: inline-block;
+    background-image: url("blackHouse.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 1px;
+}
+
+.onFire {
+    background-image: url("redHouse.svg") !important;
+
+}
+
+#bucket {
+    width: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    margin-top: 2px;
+    background-image: url("bucket.svg");
+
+}
+
